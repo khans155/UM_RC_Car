@@ -1,5 +1,5 @@
 # Universal (AC Series) Powered RC Car
-<img src="photos/build_progress/20230828_005356.jpg" width="150"><img src="photos/build_progress/20230827_232723.jpg" width="150">
+<img src="photos/build_progress/20230828_005356.jpg" width="250"><img src="photos/build_progress/20230827_232723.jpg" width="250">
 ## Motor Control System
 body
 ## Power System (Batteries, Voltage Regulators)
