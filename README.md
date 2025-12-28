@@ -1,5 +1,5 @@
 # Universal (AC Series) Powered RC Car
-breif description
+![RC Car Image](photos/build_progress/20230828_005356.jpg)
 
 ## Motor Control System
 body
