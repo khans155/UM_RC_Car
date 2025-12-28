@@ -1,4 +1,4 @@
-# Universal (AC Series) Motor Control System - RC Car
+# Universal (AC Series) Powered RC Car
 breif description
 
 ## Motor Control System
