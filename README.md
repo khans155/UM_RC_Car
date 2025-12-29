@@ -5,7 +5,7 @@
   
 ## Motor Control System
 body
-## Power System (Batteries, Voltage Regulators)
+## Power System (Batteries, Voltage Regulator)
 body
 ## 3D Design (Chasiss, Axles, Wheels, Drive Gears/Belt)
 body
