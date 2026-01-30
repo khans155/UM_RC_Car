@@ -4,10 +4,10 @@
   </p>
   
 ## Motor Control System
-body
+body --tbd--
 ## Power System (Batteries, Voltage Regulator)
-body
+body --tbd--
 ## 3D Design (Chasiss, Axles, Wheels, Drive Gears/Belt)
-body
+body --tbd--
 ## Problems And Improvements
-body
+body --tbd--
