@@ -25,6 +25,11 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 <img src="photos/components/batt_pack.jpg" width="250">
 </p>
 
+<p align="center">
+<img src="photos/build_progress/power_button.jpg" width="250">
+<img src="photos/build_progress/junc_box.jpg" width="250">
+</p>
+
 ## 3D Design and Fabrication
 <p align="center">
 <img src="photos/3D_models/chassis_lower.jpg" width="250">
@@ -57,5 +62,17 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 <p align="center">
 <img src="photos/3D_models/motor_gear.jpg" width="200">
 <img src="photos/3D_models/axle_gear.jpg" width="200">
+</p>
+
+
+## Progress Photos
+<p align="center">
+<img src="photos/build_progress/20230818_162955.jpg" width="500">
+<img src="photos/build_progress/20230819_165815.jpg" width="500">
+<img src="photos/build_progress/prog1.jpg" width="500">
+<img src="photos/build_progress/prog2.jpg" width="500">
+<img src="photos/build_progress/prog3.jpg" width="500">
+<img src="photos/build_progress/20230827_164033.jpg" width="500">
+<img src="photos/build_progress/20230827_211737.jpg" width="500">
 </p>
 
