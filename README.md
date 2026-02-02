@@ -16,7 +16,7 @@ Initially, the motor driver used was a L298N unit. This was rated for 3A and was
 
 The first iteration used a Raspberry Pi 4 as the translating layer between the receiver and the motor drivers, however this was replaced with an ESP32 board because the extra functionality of the Pi wasn’t needed. The ESP32 was programmed to receive the iBUS signal from the FlySky receiver. The receiver is the 10 channel 2.5GHz FS-IA10B which contains 10 PWM outputs, as well as serial output using the iBUS protocol. For the microcontroller to communicate using this protocol, the IBusBM library is included in the script. The function IBus.begin(Serial2, 1) initiates serial communication on pin 1 of the ESP32, which is connected to the FlySky receivers IBUS line. The FlySky remote is configured to send the throttle PWM signal on channel 2 of the IBUS line. This is then read by the microcontroller, and converted to duty cycles for the stator and motor drivers. Channel 5 of the IBUS line is connected to a switch on the remote, which is used to control the direction of the motor. The ESP32 monitors channel 5 and will change the direction of the motor when the switch is flipped, using the motor driver connected to the rotor windings. The servo motors are directly connected to the FlySky receiver because they don’t require any translation layer. 
 <p align="center">
-<img src="photos/components/ESP32.jpg" width="250"><img src="photos/components/reciever.jpg" width="250"><img src="photos/components/motor_driver.jpg" width="250">
+<img src="photos/components/ESP32.jpg" width="300"><img src="photos/components/reciever.jpg" width="300">
 </p>
 
 ## Power System (Batteries, Voltage Regulator)
