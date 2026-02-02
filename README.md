@@ -8,8 +8,6 @@ The motor control system consists of two motor driver boards, a microcontroller,
 <p align="center">
 <figure>
 <img src="photos/components/motor.jpg" width="250"><figcaption><b>Figure 1:</b> AC Series Motor</figcaption>
-</figure>
-  <figure>
 <img src="photos/components/remote.jpg" width="250"><figcaption><b>Figure 2:</b>FlySky Remote</figcaption>
 </figure>
 </p>
