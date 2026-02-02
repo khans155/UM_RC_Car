@@ -29,28 +29,33 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 <p align="center">
 <img src="photos/3D_models/chassis_lower.jpg" width="250">
 <img src="photos/3D_models/chassis_upper.jpg" width="250">
+<img src="photos/components/main_chas.jpg" width="330">
 </p>
 
 <p align="center">
-<img src="photos/3D_models/front_suspension.jpg" width="250">
+<img src="photos/3D_models/front_suspension.jpg" width="700">
+<img src="photos/components/front_assembly.jpg" width="350">
 </p>
 
 <p align="center">
-<img src="photos/3D_models/motor_mount.jpg" width="250">
-<img src="photos/3D_models/moter_to_axle.jpg" width="250">
-<img src="photos/3D_models/motor_to_chassis.jpg" width="250">
-<img src="photos/3D_models/motor_to_spring.jpg" width="250">
+<img src="photos/3D_models/motor_mount.jpg" width="200">
+<img src="photos/3D_models/moter_to_axle.jpg" width="200">
+<img src="photos/3D_models/motor_to_chassis.jpg" width="200">
+<img src="photos/3D_models/motor_to_spring.jpg" width="200">
 </p>
 
 <p align="center">
-<img src="photos/3D_models/rear_axle_inner.jpg" width="250">
-<img src="photos/3D_models/rear_axle_outer.jpg" width="250">
-<img src="photos/3D_models/rear_rim.jpg" width="250">
-<img src="photos/3D_models/rear_tire.jpg" width="250">
+<img src="photos/3D_models/rear_axle_inner.jpg" width="200">
+<img src="photos/3D_models/rear_axle_outer.jpg" width="200">
+<img src="photos/3D_models/rear_rim.jpg" width="200">
+<img src="photos/3D_models/rear_tire.jpg" width="200">
+<img src="photos/components/axel_w_tires.jpg" width="250">
+<img src="photos/components/axel1.jpg" width="250">
+<img src="photos/components/axel3.jpg" width="250">  
 </p>
 
 <p align="center">
-<img src="photos/3D_models/motor_gear.jpg" width="250">
-<img src="photos/3D_models/axle_gear.jpg" width="250">
+<img src="photos/3D_models/motor_gear.jpg" width="200">
+<img src="photos/3D_models/axle_gear.jpg" width="200">
 </p>
 
