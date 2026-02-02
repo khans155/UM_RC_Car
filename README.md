@@ -24,7 +24,8 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 <img src="photos/components/batt.jpg" width="250">
 <img src="photos/components/batt_pack.jpg" width="250">
 </p>
-## 3D Design (Chasiss, Axles, Wheels, Drive Gears/Belt)
+
+## 3D Design and Fabrication
 <p align="center">
 <img src="photos/3D_models/chassis_lower.jpg" width="250">
 <img src="photos/3D_models/chassis_upper.jpg" width="250">
@@ -53,5 +54,3 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 <img src="photos/3D_models/axle_gear.jpg" width="250">
 </p>
 
-## Problems And Improvements
-body --tbd--
