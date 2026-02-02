@@ -1,4 +1,4 @@
-# Universal (AC Series) Motor Powered RC Car
+# Universal (AC Series) Motor Powered RC Car (Work in Progress)
 <p align="center">
 <img src="photos/build_progress/20230828_005356.jpg" width="250"><img src="photos/build_progress/20230828_005344.jpg" width="250"><img src="photos/build_progress/20230827_232723.jpg" width="250">
   </p>
@@ -20,8 +20,38 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 </p>
 
 ## Power System (Batteries, Voltage Regulator)
-body --tbd--
+<p align="center">
+<img src="photos/components/batt.jpg" width="250">
+<img src="photos/components/batt_pack.jpg" width="250">
+</p>
 ## 3D Design (Chasiss, Axles, Wheels, Drive Gears/Belt)
-body --tbd--
+<p align="center">
+<img src="photos/3D_models/lower_chassis.jpg" width="250">
+<img src="photos/3D_models/upper_chassis.jpg" width="250">
+</p>
+
+<p align="center">
+<img src="photos/3D_models/front_suspension.jpg" width="250">
+</p>
+
+<p align="center">
+<img src="photos/3D_models/motor_mount.jpg" width="250">
+<img src="photos/3D_models/motor_to_axle.jpg" width="250">
+<img src="photos/3D_models/motor_chassis.jpg" width="250">
+<img src="photos/3D_models/motor_spring.jpg" width="250">
+</p>
+
+<p align="center">
+<img src="photos/3D_models/rear_axle_inner.jpg" width="250">
+<img src="photos/3D_models/rear_axle_outer.jpg" width="250">
+<img src="photos/3D_models/rear_rim.jpg" width="250">
+<img src="photos/3D_models/rear_tireg.jpg" width="250">
+</p>
+
+<p align="center">
+<img src="photos/3D_models/motor_gear.jpg" width="250">
+<img src="photos/3D_models/axle_gear.jpg" width="250">
+</p>
+
 ## Problems And Improvements
 body --tbd--
