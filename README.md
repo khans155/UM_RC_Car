@@ -26,8 +26,8 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 </p>
 ## 3D Design (Chasiss, Axles, Wheels, Drive Gears/Belt)
 <p align="center">
-<img src="photos/3D_models/lower_chassis.jpg" width="250">
-<img src="photos/3D_models/upper_chassis.jpg" width="250">
+<img src="photos/3D_models/chassis_lower.jpg" width="250">
+<img src="photos/3D_models/chassis_upper.jpg" width="250">
 </p>
 
 <p align="center">
@@ -36,16 +36,16 @@ The first iteration used a Raspberry Pi 4 as the translating layer between the r
 
 <p align="center">
 <img src="photos/3D_models/motor_mount.jpg" width="250">
-<img src="photos/3D_models/motor_to_axle.jpg" width="250">
-<img src="photos/3D_models/motor_chassis.jpg" width="250">
-<img src="photos/3D_models/motor_spring.jpg" width="250">
+<img src="photos/3D_models/moter_to_axle.jpg" width="250">
+<img src="photos/3D_models/motor_to_chassis.jpg" width="250">
+<img src="photos/3D_models/motor_to_spring.jpg" width="250">
 </p>
 
 <p align="center">
 <img src="photos/3D_models/rear_axle_inner.jpg" width="250">
 <img src="photos/3D_models/rear_axle_outer.jpg" width="250">
 <img src="photos/3D_models/rear_rim.jpg" width="250">
-<img src="photos/3D_models/rear_tireg.jpg" width="250">
+<img src="photos/3D_models/rear_tire.jpg" width="250">
 </p>
 
 <p align="center">
