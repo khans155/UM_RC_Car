@@ -44,6 +44,8 @@ This approach enables independent control of **torque and rotational speed**.
 <img src="photos/components/motor_driver_old.jpg" width="250"><img src="photos/components/motor_driver_new.jpg" width="260"><img src="photos/components/motor_driver_connectors.jpg" width="250">
 </p>
 
+---
+
 The initial system architecture used a Raspberry Pi 4 as an intermediary between the radio receiver and the motor drivers. This was later replaced with an ESP32, as the Raspberry Pi’s additional processing capability and operating system overhead were unnecessary for a real-time motor control application. The ESP32 provides a simpler and more deterministic control platform while still offering sufficient performance for signal decoding and PWM generation.
 
 The ESP32 is programmed to receive iBUS serial data from a FlySky FS-IA10B 10-channel 2.5 GHz receiver, which supports both individual PWM outputs and a serial iBUS interface. Communication over this protocol is handled using the IBusBM library. Serial communication is initialized using IBus.begin(Serial2, 1), where pin 1 of the ESP32 is connected to the receiver’s iBUS output.
