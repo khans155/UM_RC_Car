@@ -11,21 +11,21 @@ The motor control system consists of:
 - An AC series motor (separate stator and rotor windings)  
 - Servo motors for steering  
 
-One motor driver controls the **stator windings**, while the second driver controls the **rotor windings**. The ESP32 acts as the control interface between the FlySky receiver and the motor drivers, translating remote inputs into motor speed, torque, and direction commands.
+One motor driver controls the stator windings, while the second driver controls the rotor windings. The ESP32 acts as the control interface between the FlySky receiver and the motor drivers, translating remote inputs into motor speed, torque, and direction commands.
 <p align="center">
 <img src="photos/components/motor.jpg" width="250">
 <img src="photos/components/remote.jpg" width="250">
 </p>
 
-The initial design used an **L298N motor driver**, rated for approximately **3 A**. This driver was insufficient for delivering the current required for high-speed and high-torque operation of the AC series motor.
+The initial design used an L298N motor driver, rated for 3 A. This driver was insufficient for delivering the current required for the speed/torque of the AC series motor for this project.
 
-To address this limitation, the L298N was replaced with the **BTS7960 motor driver**, which is rated for up to **43 A**.
+To address this, the L298N was replaced with the **BTS7960 motor driver**, which is rated for up to 43 A.
 
-Two BTS7960 drivers are used:
+Two BTS7960 drivers are used for:
 - **Driver 1:** Controls power delivered to the stator windings (torque control)
 - **Driver 2:** Controls power and direction of the rotor windings (speed and direction control)
 
-Both drivers are powered by a **25 V Li-ion battery pack**.
+Both drivers are powered by a 25 V Li-ion battery pack.
 
 ---
 
@@ -46,7 +46,7 @@ This approach enables independent control of **torque and rotational speed**.
 
 ---
 
-The initial system architecture used a Raspberry Pi 4 as an intermediary between the radio receiver and the motor drivers. This was later replaced with an ESP32, as the Raspberry Pi’s additional processing capability and operating system overhead were unnecessary for a real-time motor control application. The ESP32 provides a simpler and more deterministic control platform while still offering sufficient performance for signal decoding and PWM generation.
+The initial system architecture used a Raspberry Pi 4 as an intermediary between the radio receiver and the motor drivers. This was later replaced with an ESP32, as the Raspberry Pi’s additional processing capability and operating system overhead were unnecessary for a real-time motor control application, and also because I fried the Raspberry Pi :). The ESP32 provides a simpler and more deterministic control platform while still offering sufficient performance for signal decoding and PWM generation.
 
 The ESP32 is programmed to receive iBUS serial data from a FlySky FS-IA10B 10-channel 2.5 GHz receiver, which supports both individual PWM outputs and a serial iBUS interface. Communication over this protocol is handled using the IBusBM library. Serial communication is initialized using IBus.begin(Serial2, 1), where pin 1 of the ESP32 is connected to the receiver’s iBUS output.
 
