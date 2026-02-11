@@ -2,6 +2,8 @@
 <p align="center">
 <img src="photos/build_progress/20230828_005356.jpg" width="250"><img src="photos/build_progress/20230828_005344.jpg" width="250"><img src="photos/build_progress/20230827_232723.jpg" width="250">
   </p>
+
+What motivated me to attempt this project was learning how universal motors are wired. Their wiring allows them to operate on both AC and DC power sources due to the stator and rotor windings being connected in series, though due to this you can't control its direction. However, when these windings are supplied separately from a DC source, it becomes possible to control torque and speed independently. This capability is especially beneficial in situations where high torque is required, such as when a vehicle is stuck against an obstacle and needs additional torque to overcome it.
   
 ## Motor Control System
 The motor control system consists of:
